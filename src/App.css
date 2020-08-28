@@ -1,7 +1,237 @@
 @import-normalize; /* bring in normalize.css styles */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+:root {
+  --clr-primary: #fffefe;
+  --clr-secondary: #fbb03b;
+  --clr-accent: #fece00;
+  --bg-primary: #5268e7;
+  --bg-secondary: #3e54d2;
+  --clr-success: #1cb142;
+  --clr-warning: #fbb03b;
+  --clr-danger: #f42850;
+}
+
+* {
+  margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  color: var(--clr-primary);
+  background-color: var(--bg-primary);
+}
+
+/*
+  Header
+*/
+
+.container {
+  margin: auto 1em;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  color: var(--clr-accent);
+}
+
+.nav-list {
+  display: flex;
+  margin: 0.805em 0;
+}
+
+.nav-item {
+  list-style: none;
+  padding-left: 0.6em;
+}
+
+.nav-link {
+  color: var(--clr-primary);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*
+  Hero
+*/
+
+#hero {
+  padding: 1em;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-title {
+  margin-top: 1.2em;
+  margin-bottom: 0;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.hero-text {
+  margin-top: 1em;
+}
+
+.hero-link {
+  display: inline-block;
+  color: var(--clr-secondary);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.card {
+  width: 240px;
+  height: 180px;
+  margin-top: 2em;
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+  border: 5px solid rgba(255, 255, 255, 0.2767);
+  border-radius: 12px;
+  box-shadow: 0px 8px 25px #4056d4;
+}
+
+.card-info {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 1em;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 800;
+  margin-top: 0.3em;
+}
+
+.card-danger {
+  background-color: var(--clr-danger);
+}
+
+.card-warning {
+  background-color: var(--clr-warning);
+}
+
+.card-success {
+  background-color: var(--clr-success);
+}
+
+/*
+  Prevention
+*/
+
+#prevention {
+  background-color: var(--bg-secondary);
+  padding-top: 1em;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.stickers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.sticker {
+  text-align: center;
+  padding: 1em;
+}
+
+.sticker-title {
+  font-size: 1.2rem;
+}
+
+.sticker-img {
+  margin-top: 0.5em;
+}
+
+/*
+  Symptoms
+*/
+
+#symptoms {
+  padding: 1em;
+}
+
+.symptoms-title {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: right;
+  margin: 0;
+}
+
+.symptoms-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.symptoms-list,
+.symptoms-box {
+  padding-top: 1em;
+}
+
+.symptoms-list {
+  width: 200px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.symptoms-list-item {
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 0.5em;
+  margin: 0.5em;
+  background: #6075eb;
+  border: 3px solid #7087ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.symptoms-img {
+  width: 300px;
+}
+
+/*
+  Footer
+*/
+
+footer {
+  background-color: var(--bg-secondary);
+}
+
+.footer-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
