@@ -2,46 +2,50 @@ import React from 'react';
 
 import './App.css';
 
-import wash_hands from './img/wash-hands.png';
-import use_mask from './img/use-mask.png';
-import social_distancing from './img/social-distancing.png';
-import dna_body from './img/dna-body.png';
+import wash_hands from './assets/img/wash-hands.png';
+import use_mask from './assets/img/use-mask.png';
+import social_distancing from './assets/img/social-distancing.png';
+import dna_body from './assets/img/dna-body.png';
 
 function App() {
   return (
     <>
       <header>
         <div className="container nav-bar">
-          <h1 className="logo">
-            covid-<span className="logo-accent">19</span>
-          </h1>
+          <div className="brand">
+            <a className="nav-link" href="/">
+              <p className="logo">
+                covid-<span className="logo-accent">19</span>
+              </p>
+            </a>
+          </div>
 
-          <nav>
-            <ul className="nav-list">
-              <li className="nav-item">
-                <a className="nav-link" href="/">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#prevention">
-                  Prevention
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#symptoms">
-                  Symptoms
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <div className="nav-main">
+            <nav>
+              <ul className="nav-list">
+                <li className="nav-item">
+                  <a className="nav-link" href="#prevention">
+                    Prevention
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#symptoms">
+                    Symptoms
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </header>
 
       <section id="hero">
         <div className="container">
           <div className="hero-content">
-            <h1 className="hero-title">Coronavirus Disease (COVID-19)</h1>
+            <h1 className="hero-title">
+              Coronavirus Disease <br />
+              (COVID-19)
+            </h1>
             <p className="hero-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
               illum pariatur praesentium soluta omnis earum deleniti atque
@@ -75,7 +79,7 @@ function App() {
 
       <section id="prevention">
         <div className="container">
-          <h1 className="section-title">How To Prevent?</h1>
+          <h1 className="section-title">Prevention</h1>
           <div className="stickers">
             <div className="sticker">
               <h2 className="sticker-title">Wash Your Hands</h2>
@@ -107,7 +111,7 @@ function App() {
 
       <section id="symptoms">
         <div className="container">
-          <h1 className="symptoms-title">Common Symptoms</h1>
+          <h1 className="symptoms-title">Symptoms</h1>
           <div className="symptoms-flex">
             <ul className="symptoms-list">
               <li className="symptoms-list-item">Fever</li>
@@ -129,17 +133,32 @@ function App() {
       <footer>
         <div className="container footer-flex">
           <div className="col">
-            <p>
-              Inspired By <span className="logo-accent">Pixency</span>
+            <p className="footer-logo">
+              covid-<span className="logo-accent">19</span>
             </p>
           </div>
           <div className="col">
-            <h1 className="logo">
-              covid-<span className="logo-accent">19</span>
-            </h1>
+            <p className="footer-text">
+              Designed by{' '}
+              <span className="logo-accent">
+                <a className="footer-link" href="https://dribbble.com/Mashok">
+                  Mashok
+                </a>
+              </span>
+            </p>
           </div>
           <div className="col">
-            <p>&#169; 2020 PNGJ</p>
+            <p className="footer-text">
+              Developed by{' '}
+              <span className="logo-accent">
+                <a
+                  className="footer-link"
+                  href="https://github.com/pedrogestajr"
+                >
+                  Pedro Gesta
+                </a>
+              </span>
+            </p>
           </div>
         </div>
       </footer>
