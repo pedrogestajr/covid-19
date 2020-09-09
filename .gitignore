@@ -12,7 +12,7 @@
 /build
 
 # misc
-*Zone.Identifier
+*:Zone.Identifier
 .DS_Store
 .env.local
 .env.development.local
