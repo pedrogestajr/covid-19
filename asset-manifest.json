@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/covid-19/static/css/main.6d727011.chunk.css",
+    "main.js": "/covid-19/static/js/main.66771e92.chunk.js",
+    "main.js.map": "/covid-19/static/js/main.66771e92.chunk.js.map",
+    "runtime-main.js": "/covid-19/static/js/runtime-main.8e18646f.js",
+    "runtime-main.js.map": "/covid-19/static/js/runtime-main.8e18646f.js.map",
+    "static/js/2.dbdec339.chunk.js": "/covid-19/static/js/2.dbdec339.chunk.js",
+    "static/js/2.dbdec339.chunk.js.map": "/covid-19/static/js/2.dbdec339.chunk.js.map",
+    "index.html": "/covid-19/index.html",
+    "precache-manifest.3fb4b1dd090b063cbb5fcedbfeca7c15.js": "/covid-19/precache-manifest.3fb4b1dd090b063cbb5fcedbfeca7c15.js",
+    "service-worker.js": "/covid-19/service-worker.js",
+    "static/css/main.6d727011.chunk.css.map": "/covid-19/static/css/main.6d727011.chunk.css.map",
+    "static/js/2.dbdec339.chunk.js.LICENSE.txt": "/covid-19/static/js/2.dbdec339.chunk.js.LICENSE.txt",
+    "static/media/dna-body.png": "/covid-19/static/media/dna-body.599e0ce0.png",
+    "static/media/social-distancing.png": "/covid-19/static/media/social-distancing.00ddbf3f.png",
+    "static/media/wash-hands.png": "/covid-19/static/media/wash-hands.b5eeaa5c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e18646f.js",
+    "static/js/2.dbdec339.chunk.js",
+    "static/css/main.6d727011.chunk.css",
+    "static/js/main.66771e92.chunk.js"
+  ]
+}
