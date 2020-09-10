@@ -1,0 +1,40 @@
+.symptoms-title {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: right;
+  margin: 0;
+}
+
+.symptoms-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.symptoms-list,
+.symptoms-box {
+  padding-top: 1em;
+}
+
+.symptoms-list {
+  width: 200px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.symptoms-list-item {
+  font-size: 1.2rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 0.5em;
+  margin: 0.5em;
+  background: #6075eb;
+  border: 3px solid #7087ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.symptoms-img {
+  width: 100%;
+}

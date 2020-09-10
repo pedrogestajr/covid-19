@@ -1,0 +1,68 @@
+.hero-content {
+  text-align: center;
+}
+
+.hero-title {
+  margin-top: 1.2em;
+  margin-bottom: 0;
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.hero-text {
+  line-height: 1.5;
+  margin-top: 1em;
+}
+
+.hero-link {
+  display: inline-block;
+  color: var(--clr-secondary);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.card {
+  width: 240px;
+  height: 180px;
+  margin-top: 2em;
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+  border: 5px solid rgba(255, 255, 255, 0.2767);
+  border-radius: 12px;
+  box-shadow: 0px 8px 25px #4056d4;
+}
+
+.card-info {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-top: 1em;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 800;
+  margin-top: 0.3em;
+}
+
+.card-danger {
+  background-color: var(--clr-danger);
+}
+
+.card-warning {
+  background-color: var(--clr-warning);
+}
+
+.card-success {
+  background-color: var(--clr-success);
+}

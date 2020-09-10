@@ -1,0 +1,29 @@
+.prevention {
+  background-color: var(--bg-secondary);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.stickers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.sticker {
+  text-align: center;
+  padding: 1em;
+}
+
+.sticker-title {
+  font-size: 1.2rem;
+}
+
+.sticker-img {
+  margin-top: 0.5em;
+}
