@@ -1,0 +1,31 @@
+.nav-bar {
+  display: flex;
+  margin-top: 1em;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.logo-accent {
+  color: var(--clr-accent);
+}
+
+.nav-list {
+  display: flex;
+  padding: 0;
+}
+
+.nav-item {
+  list-style: none;
+  padding-left: 0.6em;
+}
+
+.nav-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--clr-primary);
+}
