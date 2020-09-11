@@ -3,8 +3,7 @@
 }
 
 .hero-title {
-  margin-top: 1.2em;
-  margin-bottom: 0;
+  margin: 0;
   font-size: 2.2rem;
   font-weight: 800;
 }
@@ -31,9 +30,9 @@
 }
 
 .card {
-  width: 240px;
-  height: 180px;
-  margin-top: 2em;
+  width: 210px;
+  height: 150px;
+  margin-top: 1em;
   padding: 1em;
   text-align: center;
   color: #fff;
@@ -45,7 +44,7 @@
 .card-info {
   font-size: 2rem;
   font-weight: 800;
-  margin-top: 1em;
+  margin-top: 0.8em;
 }
 
 .card-title {
@@ -65,4 +64,44 @@
 
 .card-success {
   background-color: var(--clr-success);
+}
+
+@media (min-width: 50em) {
+  .hero .container {
+    display: flex;
+    padding: 2em 0.5em;
+  }
+
+  .hero-content {
+    text-align: left;
+    width: 50%;
+  }
+
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .hero-text {
+    font-size: 1.2rem;
+  }
+
+  .stats {
+    width: 50%;
+    align-items: flex-end;
+    padding: 0;
+  }
+
+  .card:first-child {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 90em) {
+  .hero-title {
+    font-size: 2.6rem;
+  }
+
+  .hero-text {
+    font-size: 1.4rem;
+  }
 }

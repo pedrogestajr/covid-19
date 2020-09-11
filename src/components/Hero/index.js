@@ -36,7 +36,7 @@ function Hero() {
   } else {
     return (
       <React.Fragment>
-        <section id="hero">
+        <section id="hero" className="hero">
           <div className="container">
             <div className="hero-content">
               <h1 className="hero-title">

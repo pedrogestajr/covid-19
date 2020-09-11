@@ -14,16 +14,6 @@ function Footer() {
           </div>
           <div className="col">
             <p className="footer-text">
-              Designed by{' '}
-              <span className="logo-accent">
-                <a className="footer-link" href="https://dribbble.com/Mashok">
-                  Mashok
-                </a>
-              </span>
-            </p>
-          </div>
-          <div className="col">
-            <p className="footer-text">
               Developed by{' '}
               <span className="logo-accent">
                 <a
