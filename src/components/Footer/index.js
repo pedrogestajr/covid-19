@@ -14,6 +14,19 @@ function Footer() {
           </div>
           <div className="col">
             <p className="footer-text">
+              Data Source:{' '}
+              <span className="logo-accent">
+                <a
+                  className="footer-link"
+                  href="https://github.com/disease-sh/API"
+                >
+                  novelCOVID
+                </a>
+              </span>
+            </p>
+          </div>
+          <div className="col">
+            <p className="footer-text">
               Developed by{' '}
               <span className="logo-accent">
                 <a
