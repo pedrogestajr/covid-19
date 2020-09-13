@@ -11,6 +11,7 @@
   --clr-success: #1cb142;
   --clr-warning: #fbb03b;
   --clr-danger: #f42850;
+  --clr-neutral: #0841d5;
 }
 
 * {
@@ -30,14 +31,16 @@ html {
   padding: 1em 0.5em;
 }
 
-@media (min-width: 50em) {
+@media (min-width: 48em) {
   .container {
-    width: 80%;
+    width: 90%;
+    padding: 1.5em 0.5em;
   }
 }
 
-@media (min-width: 90em) {
+@media (min-width: 88em) {
   .container {
-    width: 70%;
+    width: 60%;
+    padding: 1.5em 0.5em;
   }
 }
