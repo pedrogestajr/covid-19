@@ -11,6 +11,7 @@ function Hero() {
   const [cases, setCases] = useState(0);
   const [deaths, setDeaths] = useState(0);
   const [recovered, setRecovered] = useState(0);
+  const [active, setActive] = useState(0);
 
   useEffect(() => {
     fetch(apiUrl)
@@ -21,6 +22,7 @@ function Hero() {
           setCases(result.cases);
           setDeaths(result.deaths);
           setRecovered(result.recovered);
+          setActive(result.active);
         },
         (error) => {
           setIsLoaded(true);
@@ -58,17 +60,25 @@ function Hero() {
             </div>
 
             <div className="stats">
-              <div className="card card-danger">
-                <p className="card-info">{cases.toLocaleString()}</p>
-                <h2 className="card-title">Total cases</h2>
+              <div className="stats-col">
+                <div className="card card-danger">
+                  <p className="card-info">{cases.toLocaleString()}</p>
+                  <h2 className="card-title">Total cases</h2>
+                </div>
+                <div className="card card-warning">
+                  <p className="card-info">{deaths.toLocaleString()}</p>
+                  <h2 className="card-title">Total deaths</h2>
+                </div>
               </div>
-              <div className="card card-warning">
-                <p className="card-info">{deaths.toLocaleString()}</p>
-                <h2 className="card-title">Total deaths</h2>
-              </div>
-              <div className="card card-success">
-                <p className="card-info">{recovered.toLocaleString()}</p>
-                <h2 className="card-title">Total recovered</h2>
+              <div className="stats-col">
+                <div className="card card-success">
+                  <p className="card-info">{recovered.toLocaleString()}</p>
+                  <h2 className="card-title">Total recovered</h2>
+                </div>
+                <div className="card card-neutral">
+                  <p className="card-info">{active.toLocaleString()}</p>
+                  <h2 className="card-title">Active cases</h2>
+                </div>
               </div>
             </div>
           </div>
