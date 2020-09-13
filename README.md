@@ -6,7 +6,7 @@ See it live at [https://pedrogestajr.github.io/covid-19/](https://pedrogestajr.g
 
 ## Screenshot
 
-![COVID-Info website screenshot](https://github.com/pedrogestajr/covid-19/screenshot.png 'COVID-Info website screenshot')
+![COVID-Info website screenshot](screenshot.png)
 
 ## Data Source
 
