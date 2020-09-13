@@ -10,4 +10,4 @@ See it live at [https://pedrogestajr.github.io/covid-19/](https://pedrogestajr.g
 
 ## Data Source
 
-[https://github.com/disease-sh/API](Disease.sh) - An open API for disease-related statistics
+[Disease.sh](https://github.com/disease-sh/API) - An open API for disease-related statistics
