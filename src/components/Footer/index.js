@@ -20,7 +20,7 @@ function Footer() {
                   className="footer-link"
                   href="https://github.com/disease-sh/API"
                 >
-                  novelCOVID
+                  Disease.sh
                 </a>
               </span>
             </p>
