@@ -1,4 +1,4 @@
-# COVID-Info
+# COVID-19 Info
 
 A simple project to help spread awareness and basic info about the Coronavirus Disease (COVID-19).
 
