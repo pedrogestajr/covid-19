@@ -1,8 +1,8 @@
 # COVID-Info
 
-A simple project to help spread awareness and stats about the Coronavirus Disease (COVID-19).
+A simple project to help spread awareness and basic info about the Coronavirus Disease (COVID-19).
 
-See it live at [https://pedrogestajr.github.io/covid-19/](https://pedrogestajr.github.io/covid-19/).
+See it live at [https://pedrogestajr.github.io/covid-19/](https://pedrogestajr.github.io/covid-19/)
 
 ## Screenshot
 
