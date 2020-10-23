@@ -13,4 +13,4 @@ See it live at [https://pedrogestajr.github.io/covid-19/](https://pedrogestajr.g
 [Disease.sh](https://github.com/disease-sh/API) - An open API for disease-related statistics
 
 ## License
-[LICENSE](LICENSE)
+- [MIT License](LICENSE)
